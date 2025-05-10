@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Fibonacci Finder</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <div class="container">
-    <h1>Fibonacci Number Finder</h1>
-    <input type="number" id="inputNumber" placeholder="Enter position (1-50)" min="1" max="50">
-    <button onclick="findFibonacci()">Get Fibonacci Number</button>
-    <p id="result"></p>
+    <h2>Fibonacci Calculator</h2>
+    <input type="number" id="num" min="0" max="50" placeholder="Enter n (0 to 50)">
+    <button onclick="calculateFibonacci()">Get Fibonacci</button>
+    <div id="result"></div>
   </div>
 
   <script src="script.js"></script>
